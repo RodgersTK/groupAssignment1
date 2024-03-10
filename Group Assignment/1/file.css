@@ -32,12 +32,10 @@
     background-color: black;
     color: white;
 }
-p{
-
-}
 .photos img{
     margin-top: 20px;
     width: 200px;
+    border-radius:10px ;
 }
 #footer{
     bottom: 0;
@@ -54,4 +52,8 @@ p{
 #footer ul li{
     display: inline;
     margin-right: 10px;
+}
+.mugambi{
+border-radius: 10px;
+height: 134px;
 }
