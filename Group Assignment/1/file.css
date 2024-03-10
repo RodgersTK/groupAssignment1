@@ -35,6 +35,10 @@
 p{
 
 }
+.photos img{
+    margin-top: 20px;
+    width: 200px;
+}
 #footer{
     bottom: 0;
     position: absolute;
