@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav-bar{
+    background-color: burlywood;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.menu-items ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-items ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    cursor: pointer;    
+}
+.menu-items ul li a:hover{
+    background-color: black;
+    color: white;
+}
+p{
+
+}
+#footer{
+    bottom: 0;
+    position: absolute;
+    background-color: burlywood;
+    width: 100%;
+    height: 50px;
+    
+}
+#footer ul{
+    list-style: none;
+    align-content: center;
+}
+#footer ul li{
+    display: inline;
+    margin-right: 10px;
+}
